@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加用户</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/register-login.css">
+    <link rel="icon" href="../static/images/logo.ico" type="image/x-icon"/>
+	<style>
+
+	</style>
+</head>
+<body>
+<br/>
+<form method="post" action="/managerAdd">
+        <div class="login form">
+			<div class="group">
+				<div class="group-ipt">
+					<input type="text" name="name" id="name" class="ipt" placeholder="输入添加用户名字" required>
+				</div>
+				<div class="group-ipt">
+					<input type="text" name="clss" id="clss" class="ipt" placeholder="输入添加用户班级 格式如 初二(6)班" required>
+				</div>
+                <div class="group-ipt">
+					<input type="text" name="Gid" id="Gid" class="ipt" placeholder="输入添加用户全国学籍号" required>
+				</div>
+				<div class="group-ipt">
+					<input type="text" name="eightid" id="eightid" class="ipt" placeholder="输入添加用户教育ID" required>
+				</div>
+                <div class="group-ipt">
+					<input type="text" name="homecity" id="homecity" class="ipt" placeholder="输入添加用户户口所在地" required>
+				</div>
+                <div class="group-ipt">
+					<input type="text" name="sex" id="sex" class="ipt" placeholder="输入添加用户性别(男/女)" required>
+				</div>
+                <div class="group-ipt">
+					<input type="text" name="bornDay" id="bornDay" class="ipt" placeholder="输入添加用户出生年月格式如 2009年11月19日" required>
+				</div>
+
+			</div>
+            <div class="button">
+                <button type="submit" class="login-btn register-btn" id="button">添加用户</button>
+            </div>
+		</div>
+    </form>
+
+</body>
+</html>
